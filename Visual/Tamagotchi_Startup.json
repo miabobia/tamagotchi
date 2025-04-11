@@ -1,0 +1,74 @@
+{ "frames": [
+   {
+    "filename": "Tamagotchi #Startup 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 200, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 200, "h": 200 },
+    "sourceSize": { "w": 200, "h": 200 },
+    "duration": 500
+   },
+   {
+    "filename": "Tamagotchi #Startup 1.aseprite",
+    "frame": { "x": 0, "y": 201, "w": 200, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 200, "h": 200 },
+    "sourceSize": { "w": 200, "h": 200 },
+    "duration": 500
+   },
+   {
+    "filename": "Tamagotchi #Startup 2.aseprite",
+    "frame": { "x": 0, "y": 402, "w": 200, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 200, "h": 200 },
+    "sourceSize": { "w": 200, "h": 200 },
+    "duration": 500
+   },
+   {
+    "filename": "Tamagotchi #Startup 3.aseprite",
+    "frame": { "x": 0, "y": 603, "w": 200, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 200, "h": 200 },
+    "sourceSize": { "w": 200, "h": 200 },
+    "duration": 500
+   },
+   {
+    "filename": "Tamagotchi #Startup 4.aseprite",
+    "frame": { "x": 0, "y": 804, "w": 200, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 200, "h": 200 },
+    "sourceSize": { "w": 200, "h": 200 },
+    "duration": 500
+   },
+   {
+    "filename": "Tamagotchi #Startup 5.aseprite",
+    "frame": { "x": 0, "y": 1005, "w": 200, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 200, "h": 200 },
+    "sourceSize": { "w": 200, "h": 200 },
+    "duration": 500
+   },
+   {
+    "filename": "Tamagotchi #Startup 6.aseprite",
+    "frame": { "x": 0, "y": 1206, "w": 200, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 200, "h": 200 },
+    "sourceSize": { "w": 200, "h": 200 },
+    "duration": 500
+   }
+ ],
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3.13-x64",
+  "image": "Tamagotchi_Startup.png",
+  "format": "RGBA8888",
+  "size": { "w": 200, "h": 1406 },
+  "scale": "1"
+ }
+}
