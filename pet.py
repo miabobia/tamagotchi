@@ -1,4 +1,4 @@
-from habitat import Habitat
+# from habitat import Habitat
 
 class Pet:
     name: str
@@ -10,7 +10,7 @@ class Pet:
     happiness: int
     tiredness: int
 
-    enclosure: Habitat
+    # enclosure: Habitat
 
     def __init__(self, pet_data: dict):
         self.name = pet_data["name"]
@@ -22,5 +22,5 @@ class Pet:
         self.happiness = pet_data["happiness"]
         self.tiredness = pet_data["tiredness"]
 
-    def set_enclosure(self, _enclosure: Habitat):
-        self.enclosure = _enclosure
+    # def set_enclosure(self, _enclosure: Habitat):
+    #     self.enclosure = _enclosure

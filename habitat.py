@@ -1,6 +1,7 @@
 
 from typing import List
 import pygame
+from pet import Pet
 
 class Habitat:
     items: List["HabitatItem"]
@@ -9,3 +10,6 @@ class Habitat:
 
     def __init__(self, _background: pygame.Surface):
         self.background = _background
+
+    def add_pet(self, _pet: Pet):
+        self.pet = _pet

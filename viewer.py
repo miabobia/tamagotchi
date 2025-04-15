@@ -37,7 +37,7 @@ class TamaScreen:
 
     def display_habitat(self, coords: Tuple[int, int]):
         # This needs to change to habitat's surface component!
-        self.screen.blit(self.habitat, coords)
+        self.screen.blit(self.habitat.background, coords)
 
     def display(self):
         """
@@ -45,8 +45,8 @@ class TamaScreen:
         doing this because we might want to apply filters to some surfaces and not others
         """
         self.display_background((0, 0))
-        self.display_tamagotchi_model((250,250))
         self.display_habitat((250, 250))
+        self.display_tamagotchi_model((100, 100))
         pygame.display.flip()
 
 
