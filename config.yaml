@@ -1,0 +1,15 @@
+# company: spacelift
+# employees:
+#   - name: John Doe
+#     position: Developer
+#     skills:
+#       - Python
+#       - YAML
+#   - name: Jane Smith
+#     position: Designer
+#     skills:
+#       - Photoshop
+#       - Illustrator
+
+window_width: 250
+window_height: 250
