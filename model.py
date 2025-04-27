@@ -1,28 +1,15 @@
 
-# logic of tamagotchi game
-
-
-# daily checkins
-
-# minigames:
-# - states
-
-# what does model need to keep track of?
-# pet
-# enclosure
-
-
 from typing import List, Tuple
 import pygame
 from pet import Pet
 from habitat import Habitat
 from viewer import TamaScreen
-class TamaModel:
+import config
 
+class TamaModel:
     viewer: TamaScreen
     pet: Pet
     habitat: Habitat
-
 
     def build_viewer(self, screen_size: Tuple[int, int]):
         tama_screen = TamaScreen(screen_size)
@@ -34,7 +21,6 @@ class TamaModel:
                 pygame.image.load("assets/device-export.png").convert_alpha(),
                 (800, 800)
             ).convert_alpha()
-
         )
         tama_screen.set_habitat(
             _habitat = Habitat(
@@ -44,6 +30,8 @@ class TamaModel:
                 ).convert_alpha()
             )
         )
+
+        tama_screen.habitat.add_pet(config.load_config())
 
         self.viewer = tama_screen
 

@@ -1,5 +1,7 @@
 # from habitat import Habitat
 
+from enum import Enum
+
 class Pet:
     name: str
     type: str # MAKE THIS INTO AN ENUM
@@ -16,7 +18,7 @@ class Pet:
         self.name = pet_data["name"]
         self.type = pet_data["type"]
         self.fav_colour = pet_data["fav_colour"]
-        self.evolution_state = pet_data["evolution_data"]
+        self.evolution_state = pet_data["evolution_state"]
         self.health = pet_data["health"]
         self.hunger = pet_data["hunger"]
         self.happiness = pet_data["happiness"]
@@ -24,3 +26,4 @@ class Pet:
 
     # def set_enclosure(self, _enclosure: Habitat):
     #     self.enclosure = _enclosure
+

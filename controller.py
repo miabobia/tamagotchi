@@ -15,7 +15,7 @@ class Controller:
         Button(pygame.Rect(375, 655, 122, 115)),
         Button(pygame.Rect(510, 655, 122, 115))
     ]
-    
+
     def set_model(self, _model: TamaModel = None):
         if _model is None:
             self.tama_model = TamaModel()
